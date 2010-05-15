@@ -1,0 +1,10 @@
+body {
+  min-height: 800px;
+  color: red;
+  background: 
+    black
+    url(../../images/backgroundimageHomepage.jpg)
+    no-repeat
+    fixed
+    center center;
+}
