@@ -1,10 +1,41 @@
 body {
-  min-height: 800px;
   color: red;
   background: 
-    black
-    url(../../images/backgroundimageHomepage.jpg)
-    no-repeat
-    fixed
-    center center;
+  background-color: transparent;
+  background-image: url(../../images/backgroundimageHomepage.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+#navbar {
+  text-align: right;
+}
+
+#navbar ul {
+  display: inline;
+}
+
+#navbar ul li {
+  display: inline;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#navbar ul li a {
+  color: red;
+  text-decoration: none;
+}
+
+#bd {
+  min-height: 200px;
+}
+
+#footer {
+  height: 45px;
+  background-color: transparent;
+  background-image: url(../../images/senryulogo.png);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: 0 0;
 }
